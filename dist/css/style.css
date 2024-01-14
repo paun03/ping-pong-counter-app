@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+body .container {
+  margin: 0 auto;
+  width: 600px;
+  text-align: left;
+  box-shadow: 0.1px 0.1px 10px 1px lightgray;
+  margin-top: 28px;
+}
+body .container img {
+  width: 100%;
+}
+body .container h1 {
+  font-size: 16px;
+  border-bottom: 2px solid #dddddd;
+  padding: 12px;
+}
+body .container .info {
+  padding: 16px 12px;
+}
+body .container .info .scoreKepper {
+  font-size: 40px;
+}
+body .container .info .inputWrapper {
+  margin-top: 24px;
+}
+body .container .info #labelScoreCounter {
+  font-size: 20px;
+  font-weight: bold;
+}
+body .container .info #inputScoreCounter {
+  width: 48px;
+  height: 24px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+}
+body .container .buttons {
+  display: flex;
+  width: 100%;
+}
+body .container .buttons button {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+body .container .buttons #btnPlayerOne {
+  background-color: rgb(36, 228, 164);
+}
+body .container .buttons #btnPlayerOne:hover {
+  background-color: #17be86;
+}
+body .container .buttons #btnPlayerTwo {
+  background-color: rgb(83, 144, 241);
+}
+body .container .buttons #btnPlayerTwo:hover {
+  background-color: #2472ed;
+}
+body .container .buttons #btnReset {
+  background-color: crimson;
+}
+body .container .buttons #btnReset:hover {
+  background-color: #ad102f;
+}/*# sourceMappingURL=style.css.map */

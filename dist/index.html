@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Score Counter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container">
+        <img src="https://www.thespruce.com/thmb/pGZ_7S4HyjCmvvYYcyfCkJEtuYY=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc()/spr-tier-3-primary-best-ping-pong-paddles-ebrockob-001-fc01c9de113b49b780de381ac71ad39d.jpeg" alt="Ping Pong">
+        <h1>Ping Pong Score Keeper</h1>
+        <div class="info">
+            <p class="scoreKepper"><span id="scorePlayerOne">0</span> to <span id="scorePlayerTwo">0</span></p>
+            <p>Use The Buttons Below To Keep Score.</p>
+            <div class="inputWrapper">
+                <label for="inputScoreCounter" id="labelScoreCounter">Playing To:</label>
+                <input type="number" id="inputScoreCounter" min="0">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="btnPlayerOne">+1 Player One</button>
+            <button id="btnPlayerTwo">+1 Player Two</button>
+            <button id="btnReset">Reset</button>
+        </div>    
+    </section>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

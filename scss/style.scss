@@ -1,0 +1,88 @@
+@import "_config.scss";
+
+body {
+    text-align: center;
+
+    .container {
+        margin: 0 auto;
+        width: 600px;
+        text-align: left;
+        box-shadow: 0.1px 0.1px 10px 1px lightgray;
+        margin-top: 28px;
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 16px;
+            border-bottom: 2px solid #dddddd;
+            padding: 12px;
+        }
+
+        .info {
+            padding: 16px 12px;
+
+            .scoreKepper {
+                font-size: 40px;
+            }
+
+            .inputWrapper {
+                margin-top: 24px;
+            }
+
+            #labelScoreCounter {
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            #inputScoreCounter {
+                width: 48px;
+                height: 24px;
+                border: 1px solid lightgray;
+                border-radius: 6px;
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            width: 100%;
+            
+            button {
+                width: 100%;
+                padding: 16px;
+                font-size: 16px;
+                border: 0;
+                color: white;
+                cursor: pointer;
+                transition: ease-in 0.3s;
+            }
+
+            #btnPlayerOne {
+                background-color: rgb(36, 228, 164);
+            }
+
+            #btnPlayerOne:hover {
+                background-color: darken(rgb(36, 228, 164), 10%);
+            }
+
+            #btnPlayerTwo {
+                background-color: rgb(83, 144, 241);
+            }
+
+            #btnPlayerTwo:hover {
+                background-color: darken(rgb(83, 144, 241), 10%);
+            }
+
+            #btnReset {
+                background-color: crimson;
+            }
+
+            #btnReset:hover {
+                background-color: darken(crimson, 10%);
+            }
+        }
+    }
+}
